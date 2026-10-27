@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace ;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.ajuste{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+}
+
+.titulo{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    font-size: x-large;
+    background-image: url("imgs/imagem_fundo_titulo.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+.titulo h1, h3, p{
+    color: antiquewhite;
+    margin-left: 20%;
+    
+    
+    
+}
+
+.barraDeNavegacao {
+    height: 30px;
+    justify-content: center;
+    margin-left: 300px;
+    
+}
+
+.barraDeNavegacao ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+    
+}
+
+.barraDeNavegacao ul li a {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large ;
+}
+
+.secao {
+  background-color: #faebd7;
+  color: #1d2b22;
+  padding: 60px 20px;
+}
+
+.secao-escura {
+  background-color: #f1dcc0;
+}
+
+
+.secao-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.imagem-direita {
+  flex-direction: row-reverse;
+}
+
+
+.secao-imagem {
+  height: 300px;
+  border-radius: 12px;
+}
+
+.secao-imagem img{
+    border-radius: 15px;
+    box-shadow: 5px 10px 40px black;
+}
+.secao-texto p{
+    color: black;
+}
+
+div.secao-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #2f7a4f;
+  color: #0f4d2e;
+  text-align: center;
+}
+
+/* A foto de verdade */
+img.secao-imagem {
+  height: 300px;
+  width: 400px;
+}
+
+
+.secao-texto {
+  flex: 1 1 300px;
+}
+
+.secao-texto h2 {
+  color: #0f4d2e;
+  font-size: 32px;
+  margin: 0 0 16px 0;
+}
+
+.secao-texto p {
+  margin: 0;
+  line-height: 1.7;
+}
